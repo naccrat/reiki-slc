@@ -1,0 +1,81 @@
+url:
+title: Reiki Training Salt Lake City
+phone: (385) 483-2264
+
+google-analytics: G-86ESLR4NPE
+
+category-list: [Training, Healing]
+
+# Privacy Policy and Terms of Service page
+state: Utah
+
+# Custom Navbar Colors
+navbar-colors:
+  bg: "#7C59C7"
+  menu-color: "#ffffff"
+  menu-hover-color: "ffffff"
+  
+# Custom button colors
+btn-custom-primary:
+  text-color: "#ffffff"
+  bg: "#7C59C7"
+  border-color: "#7C59C7"
+  hover-text-color: "#ffffff"
+  hover-bg: "#7C59C7"
+  hover-border-color: "#7C59C7"
+
+btn-custom-secondary:
+  text-color: "#000000"
+  bg: "#ffffff"
+  border-color: "#ffffff"
+  hover-text-color: "#000000"
+  hover-bg: "#e4e9ed"
+  hover-border-color: "#000000"
+
+# Call to action box bg color
+cta:
+  bg: "#7C59C7"
+  
+# Form background color
+form: 
+  bg: "#DFD8F2"
+
+
+# Local Business Schema
+schema:
+  name:
+  image:
+  telephone:
+  priceRange:
+  address:
+    city:
+    state:
+    country:
+    postalCode:
+  hours:
+    dayOfWeek:
+ <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Affordable Tree Services Miami",
+      "image": "https://miamiaffordabletreeservice.com/img/logo-tree-services-miami.png",
+      "telephone": "1-786-882-6775",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Miami",
+        "addressRegion": "Florida",
+        "addressCountry": "USA",
+        "postalCode": "33101"
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": {
+          "@type": "DayOfWeek",
+          "name": "Monday–Sunday"
+        }
+      },
+      "url": "https://miamiaffordabletreeservice.com"
+    }
+  </script>
