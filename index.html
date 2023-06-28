@@ -1,0 +1,184 @@
+---
+layout: default
+title: Reiki Salt Lake City
+services: Reiki Training, Reiki Healing, Energy Healing, Holistic Healing, Crystal Healing
+meta_description: At Reiki Light, we offer comprehensive Reiki healing session and reiki training in Salt Lake City, empowering you to tap into the healing power of Reiki for yourself and others.
+
+main-image: tree-services-landscaping.jpeg
+---
+
+  <div class="py-vh-3 w-100 overflow-hidden">
+    <div class="container">
+      <div class="row d-flex ">
+        <div class="col-lg-7">
+          <h2 class="display-6">Welcome to Reiki Light!</h2>
+          <p>We serve the Salt Lake City and surrounding areas, and we want to help you feel better with the power of Reiki. We believe that everyone has a special light inside them, and we can help you find it with Reiki healing and training. Our Reiki masters are friendly and experienced, and they will help you relax and feel good. We offer different services like Reiki healing and classes to teach you Reiki.</p>
+          <p>We want to make you happy and help you feel better, so come to Reiki Light and try Reiki!</p>
+          <p>Here are some areas we focus on:</p>
+          {% for cat in site.category-list %}  
+            <ul>
+              {% for page in site.pages %}
+                {% if page.resource == true %}
+                  {% for pc in page.categories %}
+                    {% if pc == cat %}
+                      <li class="p-1">
+                        <a href="{{ page.url }}">{{ page.title }}</a>
+                      </li>
+                    {% endif %}
+                  {% endfor %}
+                {% endif %}  
+              {% endfor %}
+            </ul>
+            {% endfor %}
+        </div>
+        <!-- col-lg-5 FORM-->
+        {% include form.html %}
+
+      </div>
+    </div>
+  </div>
+
+  <div class="py-vh-3 bg-cta-custom text-dark w-100 overflow-hidden" id="workwithus">
+    <div class="container">
+      <div class="row d-flex justify-content-center">
+        <div class="row d-flex justify-content-center text-center">
+          <div class="col-lg-10 text-center text-light">
+            <h2 class="display-6 mb-3">Welcome to Reiki Light</h2>
+            <h3 class="lead">We offer Reiki healing to all those seeking light from Salt Lake City to Provo and all along the Wasatch Front.</h3>
+          </div>
+          <div class="col-12">
+            <a class="btn btn-custom-secondary btn-xl shadow me-3 rounded-0 my-3 text-bold" href="tel:{{ site.phone }}">
+              Call Us {{ site.phone }}
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section One -->
+  <div class="py-vh-3 w-100 overflow-hidden">
+    <div class="container">
+      <div class="row d-flex justify-content-between align-items-center">
+        <div class="col-lg-6">
+          <h2 class="py-3">Reiki Healing</h2>
+          <p>At Reiki Light, we provide healing that addresses the root causes of your imbalances. This could be from physical, mental, and emotional problems. Our experienced practitioners use a whole-person approach to healing. We support your journey toward optimal health and wellness.</p>
+          <p>True healing involves healing on all levels, including the mind, body, and spirit. That's why we offer a variety of holistic healing services, including Reiki Healing.</p>
+          <p>Our Reiki Healing services help you connect with your own innate healing abilities. This helps restore balance and promote healing on all levels. We offer other holistic healing services, such as sound healing and crystal healing.</p>
+        </div>
+        <div class="col-lg-6">
+          <div class="row gx-5 d-flex">
+            <div class="col-md-11">
+              <img src="img/arborist-services.jpeg" class="shadow" width="100%" alt="An image of an arborist kneeling down planting some flowers"/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section Two -->
+  <div class="py-vh-3 bg-gray-100 w-100 overflow-hidden">
+    <div class="container">
+      <div class="row d-flex justify-content-between align-items-center">
+        <div class="col-lg-6">
+          <div class="row gx-5 d-flex">
+            <div class="col-md-11">
+              <img src="img/tree-removal.jpeg" class="shadow" width="100%" alt="an image of a machine that grinds up trees"/>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <h2 class="py-3">Energy Healing</h2>
+          <p>At Reiki Light, we offer Energy Healing services to help you improve your health and well-being. We believe that true healing involves treating the root causes of problems. Not just the symptoms. We use Reiki Healing, to help you connect with your own healing power and feel better.</p>
+          <p>Our Energy Healing services can help you balance your mind, body, and spirit. We use things like sound healing, aromatherapy, and crystal healing to help you feel your best. We know that everyone is different, so we'll fit your needs and goals.</p>
+          <p>We'll make you feel safe and supported during your visit. Come experience the benefits of Energy Healing in a non-judgmental and welcoming environment. Our values of compassion, authenticity, and integrity guide everything we do.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section Three -->
+  <div class="py-vh-3 w-100 overflow-hidden">
+    <div class="container">
+      <div class="row d-flex justify-content-between align-items-center">
+        <div class="col-lg-6">
+          <h2 class="py-3">Holistic Healing</h2>
+          <p>At Reiki Light, our holistic healing services will help you heal your mind, body, and spirit. We believe in helping the root causes of physical, mental, and emotional problems.</p>
+          <p>We offer a range of holistic healing services to meet your needs. We help with your chronic pain, stress, anxiety, and other challenges.</p>
+          <p>Holistic healing is a whole-person approach to wellness. We'll help you achieve optimal health and well-being. If you're dealing with physical ailments or emotional blocks, we are here to support you on your journey toward holistic healing.</p>
+        </div>
+        <div class="col-lg-6">
+          <div class="row gx-5 d-flex">
+            <div class="col-md-11">
+              <img src="img/tree-trimming-2.jpeg" class="shadow" width="100%" alt="an image of two men cleaning up tree branches that have been trimmed"/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section Four -->
+  <div class="py-vh-3 bg-gray-100 w-100 overflow-hidden">
+    <div class="container">
+      <div class="row d-flex justify-content-between align-items-center">
+        <div class="col-lg-6">
+          <div class="row gx-5 d-flex">
+            <div class="col-md-11">
+              <img src="img/stump-grinding-removal.jpeg" class="shadow" width="100%" alt="an image of a stump grinding machine"/>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <h2 class="py-3">Reiki Massage</h2>
+          <p>We offer a special kind of massage at Reiki Light that combines traditional massage with the healing power of Reiki. Our massage therapy helps you relax and feel better physically and mentally.</p>
+          <p>Our staff that services Salt Lake City, Utah, and most of the Wasatch Front, uses a mix of massage techniques and Reiki energy work. This helps you let go of tension and stress in your muscles. It also creates balance throughout your body.</p>
+          <p>Reiki massage is a gentle but strong kind of therapy that can help you relax and find inner peace. By using Reiki energy along with traditional massage techniques, we can help you get rid of physical and emotional pain. Reiki massage also reduces discomfort and promotes wellness.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section Five -->
+  <div class="py-vh-3 w-100 overflow-hidden">
+    <div class="container">
+      <div class="row d-flex justify-content-between align-items-center">
+        <div class="col-lg-6">
+          <h2 class="py-3">Crystal Healing</h2>
+          <p>At Reiki Light, our Crystal Healing services offer a unique approach to holistic healing. It combines the powerful energies of crystals with the intuitive healing skills of our practitioners. We help people in Salt Lake City and all along the Wasatch Front.</p>
+          <p>Crystal healing is a natural, non-invasive therapy that uses the energy of crystals. This helps restore balance to your body, mind, and spirit. Our experienced practitioners use a range of crystals to create a unique experience that meets your needs.</p>
+          <p>During a Crystal Healing session, our practitioners will place crystals on or near your body. This helps you release negative energy and promote the flow of positive energy. This helps reduce stress, boost your immune system, and promote wellness.</p>
+        </div>
+        <div class="col-lg-6">
+          <div class="row gx-5 d-flex">
+            <div class="col-md-11">
+              <img src="img/lot-clearing-services-2.jpeg" class="shadow" width="100%" alt="an image of a person clearing a lot of tree debris"/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div class="small bg-gray-100 py-vh-3 w-100 overflow-hidden">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-12 py-5 text-center">
+          <h3 class="fs-2 fw-light">Read our latest articles</h3>
+        </div>
+        {% for post in site.posts limit:3 %}           
+        <div class="col-md-6 col-lg-4 border-end aos-init aos-animate" data-aos="fade-up">
+          <div class="d-flex">
+            <div class="col-md-9 flex-fill">
+              <h3 class="h5 my-2"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+              <p>{{ post.excerpt }}</p>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div> -->
+
+  {% include cta.html %}

@@ -1,0 +1,44 @@
+{% include head.html %}
+  <body data-bs-spy="scroll" data-bs-target="#navScroll">
+
+  {% include nav.html %}
+  
+  <main>
+    <div class="w-100 overflow-hidden">
+      <div class="container-fluid position-relative text-light text-center">
+        <div class="col-12 col-lg-12 mt-0 h-100 position-absolute top-0 end-0 bg-cover" 
+          style="
+            background-image: url(/img/{{ page.main-image }});
+          ">
+        </div>
+        <div class="col-12 col-lg-12 mt-0 h-100 position-absolute top-0 end-0 bg-cover" 
+          style="
+            background: rgb(124,89,199);
+            background: linear-gradient(155deg, rgba(124, 89, 199, 0.9) 0%, rgba(38, 13, 80, 0.6) 100%);
+          ">
+        </div>
+        
+        <div class="container">
+          <div class="row d-flex justify-content-center text-center">
+          <div class="col-lg-10 py-vh-5 position-relative">
+            <h1 class="display-3 mt-5 pt-4">{{ page.title }}</h1>
+            <h3>{{ page.services }}</h3>
+            <p class="lead">Call now to schedule a set up a time to heal your mind, body, and spirit.</p>
+            <a class="btn btn-custom-primary btn-xl shadow me-3 rounded-0 my-2" href="tel:{{ site.phone }}">
+              Call Us {{ site.phone }}
+            </a>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {{ content }}
+
+  </main>
+  
+  {% include footer.html %}
+  
+  </body>
+</html>
+ 

@@ -1,0 +1,14 @@
+- title: "Home"
+  link: "/"
+
+- title: "Training"
+  link: "/training/"
+
+- title: "Healing"
+  link: "/healing/"
+
+# - title: "Articles"
+#   link: "/blog/"
+
+- title: "Contact Us"
+  link: "/contact/"
