@@ -2,7 +2,7 @@ url: "https://reikisaltlakecity.com"
 title: Reiki Salt Lake City
 phone: (385) 483-2264
 
-google-analytics: G-86ESLR4NPE
+google-analytics: G-RMWJRLXR4C
 
 category-list: [training, healing]
 
@@ -64,6 +64,6 @@ schema:
     country: "USA"
     postalCode: "84101"
   hours:
-    dayOfWeek: "Monday–Sunday"
+    dayOfWeek: "Monday–Saturday"
   # url: Same as url above
 # End Schema
