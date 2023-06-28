@@ -1,11 +1,8 @@
 - title: "Home"
   link: "/"
 
-- title: "Training"
-  link: "/training/"
-
-- title: "Healing"
-  link: "/healing/"
+- title: "Services"
+  link: "/services/"
 
 # - title: "Articles"
 #   link: "/blog/"

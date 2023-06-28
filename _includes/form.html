@@ -1,36 +1,38 @@
 <div class="col-lg-5 bg-form-custom text-dark py-4">
   <p class="lead">Get a Free, no obligation, discussion with a Reiki Healer</p>
-  <form class="row" 
+  <form 
+    class="row" 
     name="contact"
-    action="{{ site.url }}/thank-you/" 
+    action="/thank-you/" 
     method="post" 
     data-netlify-recaptcha="true" 
-    data-netlify="true">
+    data-netlify="true"
+    >
     
     <div class="col-12">
       <div class="mb-3">
-        <label for="exampleInputPassword1" class="form-label">Full Name *</label>
+        <label for="FullName" class="form-label">Full Name *</label>
         <input type="text" name="name" class="form-control form-control-lg p-3" id="FullName">
       </div>
       <div class="mb-3">
-        <label for="exampleInputPassword1" class="form-label">Phone Number *</label>
+        <label for="PhoneNumber" class="form-label">Phone Number *</label>
         <input type="text" name="phone" class="form-control form-control-lg p-3" id="PhoneNumber">
       </div>
       <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label">Email Address *</label>
+        <label for="EmailAddress" class="form-label">Email Address *</label>
         <input type="email" name="email" class="form-control form-control-lg p-3" id="EmailAddress" aria-describedby="emailHelp">
       </div>
       <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label">Are you interested in treatment or training? *</label>
+        <label for="RadioSelection" class="form-label">Are you interested in treatment or training? *</label>
         <div class="form-check">
           <input class="form-check-input" type="radio" name="Treatment" id="RadioTreatment">
-          <label class="form-check-label" for="flexRadioDefault1">
+          <label class="form-check-label" for="RadioTreatment">
             Reiki Treatment
           </label>
         </div>
         <div class="form-check">
           <input class="form-check-input" type="radio" name="Training" id="RadioTraining" checked>
-          <label class="form-check-label" for="flexRadioDefault2">
+          <label class="form-check-label" for="RadioTraining">
             Reiki Training
           </label>
         </div>

@@ -4,7 +4,16 @@ phone: (385) 483-2264
 
 google-analytics: G-86ESLR4NPE
 
-category-list: [Training, Healing]
+category-list: [training, healing]
+
+# Fonts
+font:
+  # Body copy
+  sans-serif-name: 'Open Sans'
+  sans-serif: "https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap" 
+  # Heading copy
+  serif-name: 'Playfair Display'
+  serif: "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&display=swap"
 
 # Privacy Policy and Terms of Service page
 state: Utah
@@ -15,7 +24,7 @@ navbar-colors:
   menu-color: "#ffffff"
   menu-hover-color: "ffffff"
   
-# Custom button colors
+# Custom button
 btn-custom-primary:
   text-color: "#ffffff"
   bg: "#7C59C7"
@@ -31,6 +40,8 @@ btn-custom-secondary:
   hover-text-color: "#000000"
   hover-bg: "#e4e9ed"
   hover-border-color: "#000000"
+
+btn-border-radius: "8px"
 
 # Call to action box bg color
 cta:

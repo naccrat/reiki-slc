@@ -49,7 +49,8 @@
   --bs-black-rgb: 21, 21, 21;
   --bs-body-color-rgb: 33, 37, 41;
   --bs-body-bg-rgb: 255, 255, 255;
-  --bs-font-sans-serif: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-sans-serif: "{{ site.font.sans-serif-name }}", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-serif: "{{ site.font.serif-name }}", system-ui, -apple-system, Garamond, "Times New Roman", serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: var(--bs-font-sans-serif);
@@ -105,6 +106,7 @@ hr {
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
+  font-family: var(--bs-font-serif);
   font-weight: 500;
   line-height: 1.2;
   color: var(--bs-heading-color); }
@@ -2165,7 +2167,7 @@ textarea.form-control-lg {
   --bs-btn-bg: transparent;
   --bs-btn-border-width: 1px;
   --bs-btn-border-color: transparent;
-  --bs-btn-border-radius: 0px;
+  --bs-btn-border-radius: {{ site.btn-border-radius }};
   --bs-btn-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(21, 21, 21, 0.075);
   --bs-btn-disabled-opacity: 0.65;
   --bs-btn-focus-box-shadow: 0 0 0 0.25rem rgba(var(--bs-btn-focus-shadow-rgb), .5);
@@ -2511,13 +2513,13 @@ textarea.form-control-lg {
   --bs-btn-padding-y: 0.5rem;
   --bs-btn-padding-x: 1rem;
   --bs-btn-font-size: 1.25rem;
-  --bs-btn-border-radius: 0.5rem; }
+  --bs-btn-border-radius: {{ site.btn-border-radius }}; }
 
 .btn-sm, .btn-group-sm > .btn {
   --bs-btn-padding-y: 0.25rem;
   --bs-btn-padding-x: 0.5rem;
   --bs-btn-font-size: 0.875rem;
-  --bs-btn-border-radius: 0.25rem; }
+  --bs-btn-border-radius: {{ site.btn-border-radius }}; }
 
 .fade {
   transition: opacity 0.15s linear; }
@@ -8992,7 +8994,7 @@ img {
   --bs-btn-padding-y: calc(1rem + .3vh);
   --bs-btn-padding-x: calc(1rem + 1.4vw);
   --bs-btn-font-size: 1.2rem;
-  --bs-btn-border-radius: 0px;
+  --bs-btn-border-radius: {{ site.btn-border-radius }};
   font-size: 1rem; }
 
 .btn-soft-primary {
@@ -9097,7 +9099,8 @@ img {
   background-color: {{ site.cta.bg }}; }
 
 .bg-form-custom {
-  background-color: {{ site.form.bg }}; }
+  background-color: {{ site.form.bg }};
+  border-radius: {{ site.btn-border-radius }}; }
 
 .bg-gray-100 {
   background-color: #f8f9fa; }
