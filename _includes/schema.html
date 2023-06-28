@@ -2,24 +2,24 @@
   {
     "@context": "http://schema.org",
     "@type": "LocalBusiness",
-    "name": "Affordable Tree Services Miami",
-    "image": "https://miamiaffordabletreeservice.com/img/logo-tree-services-miami.png",
-    "telephone": "1-786-882-6775",
-    "priceRange": "$$",
+    "name": "{{ site.title }}",
+    "image": "{{ site.schema.image }}",
+    "telephone": "{{ site.phone }}",
+    "priceRange": "{{ site.schema.priceRange}}",
     "address": {
       "@type": "PostalAddress",
-      "addressLocality": "Miami",
-      "addressRegion": "Florida",
-      "addressCountry": "USA",
-      "postalCode": "33101"
+      "addressLocality": "{{ site.schema.city }}",
+      "addressRegion": "{{ site.schema.address.state }}",
+      "addressCountry": "{{ site.schema.address.country }}",
+      "postalCode": "{{ site.schema.address.postalCode }}"
     },
     "openingHoursSpecification": {
       "@type": "OpeningHoursSpecification",
       "dayOfWeek": {
         "@type": "DayOfWeek",
-        "name": "Monday–Sunday"
+        "name": "{{ site.schema.hours.dayOfWeek }}"
       }
     },
-    "url": "https://miamiaffordabletreeservice.com"
+    "url": "{{ site.url }}"
   }
 </script>

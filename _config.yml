@@ -43,39 +43,16 @@ form:
 
 # Local Business Schema
 schema:
-  name:
+  # name: Same as title above
   image:
-  telephone:
-  priceRange:
+  # telephone: Same as phone above
+  priceRange: "$"
   address:
-    city:
-    state:
-    country:
-    postalCode:
+    city: "Salt Lake City"
+    state: "Utah"
+    country: "USA"
+    postalCode: "84101"
   hours:
-    dayOfWeek:
- <script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "LocalBusiness",
-      "name": "Affordable Tree Services Miami",
-      "image": "https://miamiaffordabletreeservice.com/img/logo-tree-services-miami.png",
-      "telephone": "1-786-882-6775",
-      "priceRange": "$$",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Miami",
-        "addressRegion": "Florida",
-        "addressCountry": "USA",
-        "postalCode": "33101"
-      },
-      "openingHoursSpecification": {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": {
-          "@type": "DayOfWeek",
-          "name": "Monday–Sunday"
-        }
-      },
-      "url": "https://miamiaffordabletreeservice.com"
-    }
-  </script>
+    dayOfWeek: "Monday–Sunday"
+  # url: Same as url above
+# End Schema
