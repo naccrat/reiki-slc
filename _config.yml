@@ -1,8 +1,11 @@
 url: "https://reikisaltlakecity.com"
 title: Reiki Salt Lake City
 phone: (385) 483-2264
+logo: 
+logo-width:
 
 google-analytics: G-RMWJRLXR4C
+site-author: 325 Studio
 
 category-list: [training, healing]
 
@@ -21,8 +24,9 @@ state: Utah
 # Custom Navbar Colors
 navbar-colors:
   bg: "#7C59C7"
-  menu-color: "#ffffff"
-  menu-hover-color: "ffffff"
+  menu-color: "rgba(255, 255, 255, 0.8)"
+  menu-hover-color: "rgba(255, 255, 255, 1.0)"
+  active-color: "rgba(255, 255, 255, 0.8)" # Set to the same as menu-hover-color for now. Need to figure out the active thing
   
 # Custom button
 btn-custom-primary:

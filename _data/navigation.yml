@@ -1,11 +1,26 @@
 - title: "Home"
-  link: "/"
+  url: "/"
 
 - title: "Services"
-  link: "/services/"
+  url: 
+  sublinks:
+  - title: "Energy Healing"
+    url: "/energy-healing/"
+  - title: "Holistic Healing"
+    url: "/holistic-healing/"
+
+- title: "Training"
+  url: 
+  sublinks:
+  - title: "Reiki I & II training"
+    url: "/reiki-i-ii-training/"
+  - title: "Reiki Master Certification"
+    url: "/reiki-master-certification/"
+  - title: "Reiki Training Salt Lake City"
+    url: "/reiki-training-salt-lake-city/"
 
 # - title: "Articles"
 #   link: "/blog/"
 
 - title: "Contact Us"
-  link: "/contact/"
+  url: "/contact/"

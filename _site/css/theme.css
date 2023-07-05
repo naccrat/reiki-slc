@@ -3008,15 +3008,15 @@ textarea.form-control-lg {
 .navbar {
   --bs-navbar-padding-x: 0;
   --bs-navbar-padding-y: 0.5rem;
-  --bs-navbar-color: #ffffff;
-  --bs-navbar-hover-color: ffffff;
+  --bs-navbar-color: rgba(255, 255, 255, 0.8);
+  --bs-navbar-hover-color: rgba(255, 255, 255, 1.0);
   --bs-navbar-disabled-color: rgba(21, 21, 21, 0.3);
-  --bs-navbar-active-color: rgba(21, 21, 21, 0.9);
+  --bs-navbar-active-color: rgba(255, 255, 255, 0.8);
   --bs-navbar-brand-padding-y: 0.3125rem;
   --bs-navbar-brand-margin-end: 1rem;
   --bs-navbar-brand-font-size: 1.25rem;
-  --bs-navbar-brand-color: #ffffff;
-  --bs-navbar-brand-hover-color: ffffff;
+  --bs-navbar-brand-color: rgba(255, 255, 255, 0.8);
+  --bs-navbar-brand-hover-color: rgba(255, 255, 255, 1.0);
   --bs-navbar-nav-link-padding-x: 0.5rem;
   --bs-navbar-toggler-padding-y: 0.25rem;
   --bs-navbar-toggler-padding-x: 0.75rem;

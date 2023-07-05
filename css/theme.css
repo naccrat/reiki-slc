@@ -3013,7 +3013,7 @@ textarea.form-control-lg {
   --bs-navbar-color: {{ site.navbar-colors.menu-color }};
   --bs-navbar-hover-color: {{ site.navbar-colors.menu-hover-color }};
   --bs-navbar-disabled-color: rgba(21, 21, 21, 0.3);
-  --bs-navbar-active-color: rgba(21, 21, 21, 0.9);
+  --bs-navbar-active-color: {{ site.navbar-colors.active-color }};
   --bs-navbar-brand-padding-y: 0.3125rem;
   --bs-navbar-brand-margin-end: 1rem;
   --bs-navbar-brand-font-size: 1.25rem;
