@@ -25,9 +25,9 @@ state: Utah
 navbar-colors:
   bg: "#7C59C7"
   menu-color: "rgba(255, 255, 255, 0.8)"
+  active-color: "rgba(255, 255, 255, 0.8)" # Set to the same as menu-color for now.
   menu-hover-color: "rgba(255, 255, 255, 1.0)"
-  active-color: "rgba(255, 255, 255, 0.8)" # Set to the same as menu-hover-color for now. Need to figure out the active thing
-  
+
 # Custom button
 btn-custom-primary:
   text-color: "#ffffff"
