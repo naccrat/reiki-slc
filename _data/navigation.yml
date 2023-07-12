@@ -2,7 +2,7 @@
   url: "/"
 
 - title: "Services"
-  url: 
+  url: "/services/"
   sublinks:
   - title: "Energy Healing"
     url: "/energy-healing/"
@@ -10,7 +10,7 @@
     url: "/holistic-healing/"
 
 - title: "Training"
-  url: 
+  url: "/training/"
   sublinks:
   - title: "Reiki I & II training"
     url: "/reiki-i-ii-training/"
