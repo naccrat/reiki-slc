@@ -1,5 +1,5 @@
 url: "https://reikisaltlakecity.com"
-title: Reiki Salt Lake City
+title: Reiki Light Salt Lake City
 phone: (385) 483-2264
 logo: 
 logo-width:
@@ -59,7 +59,8 @@ form:
 # Local Business Schema
 schema:
   # name: Same as title above
-  image:
+  type: LocalBusiness
+  image: 
   # telephone: Same as phone above
   priceRange: "$"
   address:

@@ -12,8 +12,12 @@
           {{ site.phone }}</a>
         </address>
         <p class="lead mt-3">Working Hours</p>
-        <p><strong>Monday&ndash;Saturday</strong><br>
-          9:00 am&ndash;5:00 pm</p>
+        <p>
+          <strong>Monday&ndash;Saturday</strong><br>
+          9:00 am &ndash; 5:00 pm<br>
+          <strong>Sunday</strong><br>
+          Closed
+        </p>
       </div>
 
       <div class="col-12 col-lg-6 col-xl-3 border-end p-5">
@@ -24,12 +28,6 @@
             <a href="{{ item.url }}" class="nav-link link-secondary ps-0">{{ item.title }}</a>
           </li>
           {% endfor %}
-          <!-- <li class="nav-item">
-            <a class="nav-link link-secondary ps-0" href="/faq/">FAQ</a>
-          </li> -->
-          <li class="nav-item">
-            <a class="nav-link link-secondary ps-0" href="/sitemap.xml" target="_blank">Sitemap</a>
-          </li>
         </ul>
       </div>
 
@@ -66,17 +64,18 @@
     </div>
   </div>
 
-  <div class="container text-center py-3 small">© 2023 All Rights Reserved | <a href="{{ site.url }}" class="link-fancy">{{ site.title }}</a> | <a class="link-fancy" href="/privacy-policy/">Privacy Policy</a> | <a class="link-fancy" href="/terms-of-service/">Terms of Service</a> | <a class="link-fancy" href="/disclaimer/">Disclaimer</a> | Designed by <a href="https://325studio.com" class="link-fancy" target="_blank">325 Studio</a>
+  <div class="container text-center pb-4 pt-2 small">
+    {{ site.title }} © 2023 All Rights Reserved | 
+    <a class="link-fancy" href="/privacy-policy/">Privacy Policy</a> | 
+    <a class="link-fancy" href="/terms-of-service/">Terms of Service</a> | 
+    <a class="link-fancy" href="/disclaimer/">Disclaimer</a> | 
+    <a class="link-fancy" href="/sitemap.xml" target="_blank">Sitemap</a> | 
+    Designed by <a href="https://325studio.com" rel="nofollow" class="link-fancy" target="_blank">325 Studio</a>
   </div>
 </footer>
 
 <script src="{{ site.url }}/js/bootstrap.bundle.min.js"></script>
 <script src="{{ site.url }}/js/aos.js"></script>
-<!-- <script>
-AOS.init({
-  duration: 800, // values from 0 to 3000, with step 50ms
-});
-</script> -->
 
 <script>
   let scrollpos = window.scrollY
