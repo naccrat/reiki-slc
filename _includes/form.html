@@ -1,5 +1,6 @@
 <div class="col-lg-5 bg-form-custom text-dark py-4">
   <p class="lead">Get a Free, no obligation, discussion with a Reiki Healer</p>
+  <p class="small mt-0 pt-0">All fields are required</p>
   <form 
     class="row" 
     name="contact"
@@ -10,34 +11,34 @@
     >
     <div class="col-12">
       <div class="mb-3">
-        <label for="FullName" class="form-label">Full Name *</label>
+        <label for="FullName" class="form-label">Full Name</label>
         <input type="text" name="name" class="form-control form-control-lg p-3" id="FullName">
       </div>
       <div class="mb-3">
-        <label for="PhoneNumber" class="form-label">Phone Number *</label>
+        <label for="PhoneNumber" class="form-label">Phone Number</label>
         <input type="text" name="phone" class="form-control form-control-lg p-3" id="PhoneNumber">
       </div>
       <div class="mb-3">
-        <label for="EmailAddress" class="form-label">Email Address *</label>
+        <label for="EmailAddress" class="form-label">Email Address</label>
         <input type="email" name="email" class="form-control form-control-lg p-3" id="EmailAddress" aria-describedby="emailHelp">
       </div>
       <div class="mb-3">
-        <label for="RadioSelection" class="form-label">Are you interested in treatment or training? *</label>
+        <label for="RadioSelection" class="form-label">I'm interested in:</label>
         <div class="form-check">
-          <input class="form-check-input" type="radio" name="Treatment" id="RadioTreatment">
-          <label class="form-check-label" for="RadioTreatment">
-            Reiki Treatment
-          </label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="Training" id="RadioTraining" checked>
+          <input class="form-check-input" type="checkbox" name="Training" id="RadioTraining" checked>
           <label class="form-check-label" for="RadioTraining">
             Reiki Training
           </label>
         </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" name="Treatment" id="RadioTreatment">
+          <label class="form-check-label" for="RadioTreatment">
+            Reiki Treatment
+          </label>
+        </div>
       </div>
       <div class="mb-3">
-        <label for="Message" class="form-label">Any other information you'd like to share? *</label>
+        <label for="Message" class="form-label">Any other information you'd like to share?</label>
         <textarea type="text" name="message" class="form-control form-control-lg p-3" id="Message"></textarea>
       </div>
       <div class="mb-3" data-netlify-recaptcha="true"></div>
